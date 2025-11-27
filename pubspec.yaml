@@ -1,0 +1,82 @@
+name: dentalsolutions
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 2.0.0+2
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # In-App Purchase (Google Play / App Store) - Commented out for testing
+  in_app_purchase: ^3.1.7
+
+  # Core AI & HTTP
+  tflite_flutter: ^0.11.0
+  http: ^1.2.2
+  connectivity_plus: ^6.0.2
+
+  # File & Image Utilities
+  path_provider: ^2.0.15
+  image: ^3.2.2
+  image_picker: ^1.1.2
+
+  # Secure storage & preferences
+  flutter_secure_storage: ^9.0.0
+  shared_preferences: ^2.0.15
+
+  # UI, icons, notifications
+  cupertino_icons: ^1.0.8
+  fluttertoast: ^8.2.4
+  flutter_spinkit: ^5.1.0
+  font_awesome_flutter: ^10.1.0
+  flutter_local_notifications: ^19.0.0
+
+  # Utilities and packages
+  dio: ^5.0.0
+  cached_network_image: ^3.2.0
+  url_launcher: ^6.1.4
+  intl: ^0.20.2
+  device_info_plus: ^11.3.3
+  flutter_inappwebview: ^6.1.5
+  permission_handler: ^11.4.0
+  flutter_screenutil: ^5.0.0+2
+  csv: ^6.0.0
+  firebase_core: ^3.12.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.11.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    #- assets/images/dentistgetstarted.jpg
+    - assets/images/Getstartedpage.jpg
+    #- assets/images/roledoctorimg.jpg
+    - assets/images/doctorrole.jpg
+    - assets/images/patientrole.jpg
+    - assets/images/ad1.jpg
+    - assets/images/adnew1.jpg
+    - assets/images/ad2.jpg
+    - assets/images/ad3.jpg
+    - assets/images/ad4.jpg
+    - assets/cbct_device.jpg
+    - assets/whatsapp.png
+    - assets/placeholder_image.png
+    - assets/images/logo.png
+    - assets/module_images/3.PNG
+    - assets/dental_classifier.tflite # ✅ Local TFLite model
