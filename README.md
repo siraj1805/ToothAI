@@ -1,16 +1,4 @@
-# dentalsolutions
+ToothAI AI-Powered Dental Care Application
+DentalSolutions is a mobile application that I built entirely from scratch based on the requirements of dentists during my internship. It bridges the gap between patients and dentists by providing appointment booking, doctor search, and AI-powered diagnostic assistance. The app integrates Flutter (frontend), PHP (backend), MySQL (database), and Python deep learning models for healthcare image analysis.
 
-A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
